@@ -144,7 +144,11 @@ window.addEventListener("DOMContentLoaded", () => {
       searchInput.value.toLowerCase() !== quotes[7].name.toLowerCase() &&
       searchInput.value.toLowerCase() !== quotes[8].name.toLowerCase() &&
       searchInput.value.toLowerCase() !== quotes[9].name.toLowerCase() &&
-      searchInput.value.toLowerCase() !== quotes[10].name.toLowerCase()
+      searchInput.value.toLowerCase() !== quotes[10].name.toLowerCase() &&
+      searchInput.value.toLowerCase() !== quotes[11].name.toLowerCase() &&
+      searchInput.value.toLowerCase() !== quotes[12].name.toLowerCase() &&
+      searchInput.value.toLowerCase() !== quotes[13].name.toLowerCase() &&
+      searchInput.value.toLowerCase() !== quotes[14].name.toLowerCase() &&
     ) {
       alert("There is no that kind of value");
     }
